@@ -46,7 +46,7 @@ Plastic waste and improper disposal can make public places dirty and cause envir
 
 ## CC Website Photo
 
-![CC Website ](Clean-Community-Website/CC-Website-Photo.png)
+![CC Website ](CC-Website-Photo.png)
 
 # My Project
 
