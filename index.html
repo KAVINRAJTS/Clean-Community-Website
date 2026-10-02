@@ -1,0 +1,432 @@
+
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Clean Community</title>
+
+    <style>
+
+        body {
+            font-family: Arial, "Segoe UI Emoji", "Noto Color Emoji", sans-serif;
+            margin: 0;
+            background-color: #f4f8f5;
+        }
+
+        header {
+            background-color: #198754;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #123d29;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #9cffbd;
+        }
+
+        .hero {
+            background-color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .hero h1 {
+            font-size: 45px;
+            color: #198754;
+        }
+
+        .hero p {
+            font-size: 18px;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #198754;
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 6px;
+            margin-top: 15px;
+        }
+
+        .button:hover {
+            background-color: #126c42;
+        }
+
+        .section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .section h2 {
+            color: #198754;
+            font-size: 30px;
+        }
+
+        .cards {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background-color: white;
+            width: 250px;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0px 3px 10px #cccccc;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card h3 {
+            color: #198754;
+        }
+
+        .emoji {
+            font-family: "Segoe UI Emoji", "Noto Color Emoji",
+                         "Apple Color Emoji", sans-serif;
+        }
+
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            background-color: #dff5e7;
+            padding: 30px;
+        }
+
+        .stat {
+            background-color: white;
+            width: 180px;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .stat h2 {
+            color: #198754;
+            font-size: 30px;
+        }
+
+        .action {
+            background-color: #198754;
+            color: white;
+            text-align: center;
+            padding: 40px;
+        }
+
+        input, textarea {
+            width: 80%;
+            max-width: 500px;
+            padding: 12px;
+            margin: 8px;
+            border: 1px solid #cccccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #198754;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: #123d29;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @media (max-width: 600px) {
+
+            .hero h1 {
+                font-size: 32px;
+            }
+
+            nav a {
+                display: block;
+                margin: 10px;
+            }
+
+            .card {
+                width: 80%;
+            }
+
+            .hero p {
+                font-size: 16px;
+            }
+
+
+
+
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+    <header>
+
+        <h1><span class="emoji">🌱</span> Clean Community</h1>
+
+        <p>Working Together for a Cleaner Tomorrow</p>
+
+    </header>
+
+
+    <nav>
+
+        <a href="#home">Home</a>
+        <a href="#problem">Problem</a>
+        <a href="#solution">Solution</a>
+        <a href="#action">Take Action</a>
+        <a href="#contact">Contact</a>
+
+    </nav>
+
+
+    <div class="hero" id="home">
+
+        <h1>Let's Make Our Community Clean</h1>
+
+        <p>
+            Plastic pollution affects our streets,
+            water and environment.
+        </p>
+
+        <p>
+            Small changes in our daily life can
+            create a big difference.
+        </p>
+
+        <a href="#action" class="button">Take Action</a>
+
+    </div>
+
+
+    <div class="section" id="problem">
+
+        <h2><span class="emoji">🚨</span> The Problem</h2>
+
+        <div class="cards">
+
+            <div class="card">
+
+                <h3><span class="emoji">🧴</span> Plastic Waste</h3>
+
+                <p>
+                    Single-use plastic creates
+                    large amounts of waste.
+                </p>
+
+            </div>
+
+
+            <div class="card">
+
+                <h3><span class="emoji">🌊</span> Water Pollution</h3>
+
+                <p>
+                    Waste can enter rivers,
+                    lakes and other water sources.
+                </p>
+
+            </div>
+
+
+            <div class="card">
+
+                <h3><span class="emoji">🏙️</span> Dirty Streets</h3>
+
+                <p>
+                    Improper waste disposal makes
+                    public places dirty.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="section" id="solution">
+
+        <h2><span class="emoji">💡</span> Our Solution</h2>
+
+        <div class="cards">
+
+            <div class="card">
+
+                <h3><span class="emoji">👜</span> Reduce</h3>
+
+                <p>
+                    Reduce the use of unnecessary
+                    plastic products.
+                </p>
+
+            </div>
+
+
+            <div class="card">
+
+                <h3><span class="emoji">♻️</span> Reuse</h3>
+
+                <p>
+                    Reuse bottles, bags and
+                    containers whenever possible.
+                </p>
+
+            </div>
+
+
+            <div class="card">
+
+                <h3><span class="emoji">🗑️</span> Recycle</h3>
+
+                <p>
+                    Separate recyclable materials
+                    and dispose of them properly.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="stats">
+
+        <div class="stat">
+
+            <h2>3R</h2>
+
+            <p>Reduce • Reuse • Recycle</p>
+
+        </div>
+
+
+        <div class="stat">
+
+            <h2>100%</h2>
+
+            <p>Community Participation</p>
+
+        </div>
+
+
+        <div class="stat">
+
+            <h2>1</h2>
+
+            <p>Cleaner Goal</p>
+
+        </div>
+
+    </div>
+
+
+    <div class="action" id="action">
+
+        <h2><span class="emoji">🌍</span> Take Action Today</h2>
+
+        <p>
+            Carry a reusable bag. Use less plastic.
+            Keep your surroundings clean.
+        </p>
+
+        <p>
+            Encourage your friends and family
+            to do the same.
+        </p>
+
+        <a href="#contact" class="button">
+            Join the Movement
+        </a>
+
+    </div>
+
+
+    <div class="section" id="contact">
+
+        <h2><span class="emoji">📩</span> Share Your Idea</h2>
+
+        <p>
+            Tell us how you would help keep
+            your community clean.
+        </p>
+
+        <form>
+
+            <input type="text"
+                   placeholder="Your Name">
+
+            <br>
+
+            <input type="email"
+                   placeholder="Your Email">
+
+            <br>
+
+            <textarea rows="5"
+                      placeholder="Your Idea"></textarea>
+
+            <br>
+
+            <button type="submit">
+                Submit Idea
+            </button>
+
+        </form>
+
+    </div>
+
+
+    <footer>
+
+        <h3><span class="emoji">🌱</span> Clean Community</h3>
+
+        <p>
+            Created by: GREEN GUARDIANS
+        </p>
+
+        <p>
+            © 2026 Clean Community Project
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
+```
