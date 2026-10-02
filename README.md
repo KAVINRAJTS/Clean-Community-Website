@@ -56,5 +56,5 @@ The Clean Community webpage creates awareness about plastic waste and encourages
 
 ## Team
 
-**Team Name:** EcoMinds
+**Team Name:** Green Guardians
 ```
