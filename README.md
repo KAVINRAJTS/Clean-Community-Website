@@ -1,4 +1,3 @@
-```markdown
 # 🌱 Clean Community
 
 ## About the Project
